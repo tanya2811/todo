@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.navbar {
+    margin-bottom: 100px;
+    background-color: #6c6777;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    box-shadow: 1px 1px 10px black;
+    padding-bottom: 20px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 10px 40px;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.navbar ul li .Link{
+    color: white;
+    text-decoration: none;
+}
+button {
+    /* background: transparent; */
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.head {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.p {
+    font-size: 12px;
+    align-items: center;
+
+}
+
+.box {
+    margin-left: 570px;
+    margin-bottom: 20px;
+    width: 25vw;
+    height: 60vh;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2);
+    background: #a5bbdd;
+    /* background-color: orange; */
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    min-width: 20rem;
+    min-height: 35rem;
+
+}
+
+
+.wave {
+    opacity: 0.3;
+
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    background: white;
+    /* background-color: blue; */
+    width: 50rem;
+    height: 50rem;
+    margin-left: -25rem;
+    margin-top: -20rem;
+    transform-origin: 50% 48%;
+    border-radius: 43%;
+    animation: drift 3000 ms infinite linear;
+    z-index: 1;
+}
+
+.-three {
+    animation: drift 5000ms infinite linear;
+    opacity: 0.2;
+    z-index: 2 !important;
+
+}
+
+.-two {
+    animation: drift 7000ms infinite linear;
+    opacity: 0.1;
+    z-index: 3 !important;
+
+}
+
+.inputField {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid black;
+    box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+.location {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-weight: normal;
+
+}
+
+.temp {
+    text-align: center;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.tempmin_max {
+    text-align: center;
+
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 35px;
+    padding-right: 10px;
+}
